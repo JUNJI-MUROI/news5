@@ -1,0 +1,291 @@
+/* img css */
+
+img{
+  
+  height: auto;
+}
+
+.wp-block-image img {
+  height: auto;
+}
+
+/* a css */
+
+a{
+  color:black;
+  text-decoration: none;
+}
+
+a:hover{
+  color:rgb(49, 161, 196);
+  text-decoration: none;
+}
+
+
+/* h1 title css */
+h1{
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+    color: #000;
+    line-height: 1.3;
+    font-weight: 700;
+    font-size: 1.5rem;
+    padding: 10px 20px;
+    background: #f5f5f5;
+}
+
+
+/* h2 css */
+h2{
+  padding: 5px 5px;
+    border-color:rgb(49, 161, 196);
+    border-width: 0 0 1px 7px;
+    border-style: solid;
+    font-size: 1.125rem;
+    line-height: 1.3;
+    font-weight: 700;
+}
+
+
+
+
+.post-categories{
+  display: flex;
+  color: #979797;
+  font-weight: 700;
+}
+
+
+.post-categories2{
+  color: #979797;
+  font-weight: 700;
+}
+
+
+.post-categories li{
+  margin-right: 10px;
+  list-style: none;
+  font-weight: 700;
+  
+}
+
+
+.avatar{
+  width: 100%;
+}
+
+
+
+
+.max-width-100{
+  max-width:100%;
+}
+
+
+.top-header-color{
+  background-color: rgb(236, 236, 236);
+}
+
+
+input {
+  overflow: scroll;
+}
+
+
+
+
+.post-categories a{
+  color: #979797;
+}
+
+.post-categories a:hover{
+  color:rgb(49, 161, 196);
+}
+
+
+/*メニューの共通css */
+
+.menu {
+  display: flex;
+  list-style-type: none;
+  font-size: 0.8em;
+  margin: 1rem auto;
+}
+
+/* トップメニューの固有css */
+#menu-top-menu{
+  background-color: rgb(105, 105, 105);
+}
+
+.top-menu-li{
+  transition: 1s;
+  text-decoration: none;
+  color: white;
+}
+
+.top-menu-li:hover{
+  background-color: rgb(37, 37, 37);
+  text-decoration: none;
+color: white;
+}
+
+
+
+
+
+
+/* 中央のメニューの固有css */
+#center-menu{
+  background-color: rgb(37, 37, 37);
+}
+
+.center-menu-li{
+  transition: 1s;
+  text-decoration: none;
+  color: white;
+}
+
+.center-menu-li:hover{
+  text-decoration: none;
+  color: white;
+  background-color: rgb(49, 161, 196);
+}
+
+
+
+
+/* top page eye catch css */
+div.eye-catch-img{
+  position: relative;
+}
+
+p.eye-catch-rabel{
+  position: absolute;
+  top: 0;
+}
+
+
+
+/* category title css */
+.category-title{
+  font-size: 1rem;
+  padding-bottom: 5px;
+  border-bottom: 3px solid rgb(49, 161, 196);
+  margin-bottom: 1.25rem;
+  font-weight: bold;
+}
+
+
+
+/* article title css */
+.article-title{
+  font-size: 0.95rem;
+  font-weight: bold;
+  border-bottom: 1px solid rgba(49, 161, 196,0.5);
+}
+
+
+
+
+/* footer css */
+footer{
+  margin: 1rem auto;
+  
+}
+
+
+/* 横並びcss  */
+.flex{
+  display: flex;
+}
+
+
+
+
+/* 右に寄せるcss */
+.right{
+  text-align: right;
+  margin: 0 15px 0 auto;
+}
+
+/* center css */
+.center{
+  margin: 0 auto;
+}
+
+
+
+/* pick up icon css */
+.pickupbutton{
+  color: #fff;
+  background-color: #16fd16ad;
+  display: inline-block;
+}
+
+
+/* hamburger */
+.hamburger{
+  display: none;
+}
+
+
+
+/* img css */
+.wp-post-image{
+  max-width: 100%;
+  height: auto;
+}
+
+
+
+/* bread crumb css */
+.breadcrumb {
+  font-size: 0.8125rem;
+  color: #979797;
+  margin-bottom: 1.25rem;
+  padding: 5px 10px;
+  border-top: 1px dotted #ebebeb;
+  border-bottom: 1px dotted #ebebeb;
+  background-color: white;
+}
+
+.breadcrumbseparate{
+  margin: 0 15px;
+}
+
+
+
+
+
+
+.width33{
+ width: 30%;
+}
+
+
+.width66{
+  width: 65%;
+}
+
+
+.block{
+  display: block;
+  width: 100%;
+}
+
+
+
+/* responsive design */
+@media screen and (max-width: 900px){
+  .none{
+    display: none;
+  }
+  
+
+
+ }
+
+ @media screen and (max-width:540px){
+   .none2{
+     display: none;
+   }
+ }
